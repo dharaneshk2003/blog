@@ -1,0 +1,138 @@
+/* newPost.js */
+.NewPostDiv{
+    margin-top: -24px;
+    width: 100%;
+    margin-left: 2%;
+    
+}
+
+.heading{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.postDiv {
+    background-color: transparent;
+    margin: 0 0 5px 0;
+}
+
+.postDiv label {
+    background-color: transparent;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.postDiv input{
+    margin: 1% 0;
+    width: 40%;
+    padding: 0 0 0 1.5%;
+}
+
+textarea{
+    border: 2px solid #ddd;
+    margin: 0;
+    padding: 1% 0 0 2%;
+    font-size: 25px;
+    width: 400px;
+}
+
+input[type='file'] {
+    border: 0;
+    margin-top: 10px;
+}
+
+.textInp {
+    background-color: transparent;
+    padding: 0;
+    height: 200px; /* Set a fixed height */
+    margin-bottom: 0;
+    overflow-y: auto; /* Enable scrolling */
+}
+
+.ql-container {
+    border: none; /* Remove any border that might add extra space */
+    margin: 0;
+    padding: 0;
+}
+
+.ql-editor {
+    padding: 0; /* Remove padding to ensure content starts from the top */
+    min-height: 150px; /* Set a minimum height if necessary */
+    height: 100%; /* Make the editor fill the parent container */
+    margin-bottom: 0; /* Remove bottom margin */
+    overflow-y: auto; /* Enable scrolling if the content exceeds height */
+}
+
+.ql-toolbar {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 0; /* Spreads out the toolbar items */
+}
+
+.ql-toolbar .ql-formats {
+    margin-bottom: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.ql-toolbar button,
+.ql-toolbar select {
+    font-size: 12px; /* Adjusts the size of buttons and dropdowns */
+    padding: 0;
+}
+/* Styling for ReactQuill Editor */
+
+
+.btnDiv{
+    margin: 20px 0 0 0;
+}
+
+.btnDivBtn{
+    width: 15%;
+}
+
+
+
+@media (max-width: 1285.60px) {
+    .heading{
+        font-size: 220%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-decoration: underline;
+    }
+
+    .NewPostDiv{
+        margin-top: -10px;   
+    }
+    .postDiv {
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .NewPostDiv label{
+        background-color: transparent;
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }
+
+    textarea{
+        border: 2px solid #ddd;
+        margin: 0;
+        padding: 1% 0 0 2%;
+        font-size: 25px;
+        width: 70%;
+    }
+
+    .btnDivBtn{
+        width: 150px;
+        font-size: 20px;
+    }
+
+   
+}

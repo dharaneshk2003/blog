@@ -1,0 +1,17 @@
+.outfit-bold {
+  font-family: "Outfit", system-ui;
+  font-weight: 700;
+  /* Set your desired font size */
+}
+
+.outfit-medium {
+  font-family: "Outfit", system-ui;
+  font-weight: 550;
+  
+   /* Set your desired font size */
+}
+
+.outfit {
+  font-family: "Outfit", system-ui;
+  font-weight: 400; /* Set your desired font size */
+}

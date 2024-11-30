@@ -1,0 +1,98 @@
+.profDiv{
+    margin-top: -3%;
+    background-color: transparent;
+}
+.profTitle{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+/* Hide the default file input */
+.profileInfo{
+    margin-left: 20%;
+    background-color: transparent;
+    width: 36.5%;
+}
+  
+  /* Style the label to act as a button */
+  
+  
+  /* Style the button on hover */
+  
+
+
+.profile-picture {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+
+.greeting{
+    font-size: 40px;
+    margin-left: 60px;
+    
+}
+
+.profile-actions{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.profile-actions button{
+    margin-left: 0;
+    width: 40%;
+}
+
+@media (max-width: 1285.60px) {
+    .profDiv{
+        margin-top: -2%;
+        background-color: transparent;
+    }
+
+    .profileInfo{
+        margin-left: 10%;
+        background-color: transparent;
+        width: 40%;
+        width: 100%;
+    }
+    
+    .profTitle{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .profile-picture{
+        margin-left: 10%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .greeting{
+        font-size: 150%;
+        margin-left: 8%;
+    }
+
+    .profile-actions{
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        margin-top: 1%;
+    }
+
+
+    .file-upload-label{
+        margin-left: 2%;
+    }
+
+    file-upload-label input{
+        margin-left: 2%;
+    }
+    .profile-actions button{
+        margin-left: 10%;
+        width: auto;
+        padding: 2%;
+    }
+
+}
